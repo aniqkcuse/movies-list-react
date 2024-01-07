@@ -1,8 +1,12 @@
-function App() {
+import CardMovie from "./components/CardMovie.tsx"
 
+function App() {
   return (
     <>
-      <h1>Main Title</h1>
+      <CardMovie />
+      <CardMovie />
+      <CardMovie />
+      <CardMovie />
     </>
   )
 }
